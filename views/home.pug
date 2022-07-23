@@ -1,0 +1,49 @@
+extend base.pug 
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content 
+    section#introSection
+        div  Welcome to Jazz Dance Academy 
+        div.small  Eat Sleep Dance Repeat 
+
+    section#ourMission
+        h2 Our Mission 
+
+        div.card
+          h3 Dance Perfection 
+          div.card-box
+            div.card-img 
+              img(src="https://cdn-icons-png.flaticon.com/512/40/40093.png")
+              div.card-content 
+                p This is the best dance academy of the universe.
+        
+        div.card
+          h3 Dance Perfection 
+          div.card-box
+            div.card-img 
+              img(src="https://cdn-icons.flaticon.com/png/512/3725/premium/3725691.png?token=exp=1657907002~hmac=c3216c3e37b8409b2132910c1171fc40")
+              div.card-content 
+                p This is the best dance academy of the universe.
+        
+        div.card
+          h3 Dance Perfection 
+          div.card-box
+            div.card-img 
+              img(src="https://cdn-icons-png.flaticon.com/512/7779/7779711.png")
+              div.card-content 
+                p This is the best dance academy of the universe.
+        
+    section#sponserSection
+        h2 Our Sponsors 
+        
+        #sponsors   
+          img(src="https://cdn-icons-png.flaticon.com/512/732/732221.png", alt="sponsor image", class="spImage")
+          img(src="https://cdn-icons-png.flaticon.com/512/882/882749.png", alt="sponsor image", class="spImage")
+          img(src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504884.png?token=exp=1657908795~hmac=c0b392292403b361015f717f491b09aa", alt="sponsor image", class="spImage")
+          img(src="https://cdn-icons-png.flaticon.com/512/174/174869.png", alt="sponsor image", class="spImage") 

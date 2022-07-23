@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(42, 36, 36);
+}
+
+.container{
+    height: 77vh;
+    margin: 43px 0;
+}
+
+.container h2{
+    text-align: center;
+    margin: 12px 0;
+    color: aliceblue;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    width: 40%;
+    padding: 5px;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.btn{
+
+    padding: 8px 20px;
+    font-size: 18px;
+    border: 2px solid rgb(36, 32, 32);   
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 23px;
+}
+
+.btn:hover{
+    background-color: rgb(196, 166, 164);
+}
